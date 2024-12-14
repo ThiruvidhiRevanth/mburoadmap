@@ -36,6 +36,26 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
 
+        .back-button {
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        .back-button a {
+            text-decoration: none;
+            font-size: 18px;
+            color: white;
+            background-color: rgb(46, 187, 243);
+            padding: 10px 20px;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        .back-button a:hover {
+            background-color: rgb(30, 136, 179);
+        }
+
         @media (max-width: 768px) {
             h1 {
                 font-size: 24px;
@@ -50,6 +70,11 @@
             img {
                 max-width: 90%;
             }
+
+            .back-button a {
+                font-size: 16px;
+                padding: 8px 15px;
+            }
         }
     </style>
 </head>
@@ -61,5 +86,9 @@
 
     <p>Route Map:</p>
     <img src="https://github.com/ThiruvidhiRevanth/mbupage/blob/main/mbar.jpg?raw=true" alt="Route Map">
+
+    <div class="back-button">
+        <a href="javascript:history.back()">Go Back</a>
+    </div>
 </body>
 </html>
