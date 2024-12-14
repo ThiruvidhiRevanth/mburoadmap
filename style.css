@@ -7,7 +7,7 @@
         }
 
         h1 {
-            background-color: rgb(46, 187, 243);
+            background-color: #1c799e;
             color: white;
             font-size: 30px;
             padding: 20px;
@@ -39,14 +39,14 @@
             text-decoration: none;
             font-size: 18px;
             color: white;
-            background-color: rgb(46, 187, 243);
+            background-color:#1c799e;
             padding: 10px 20px;
             border-radius: 5px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
         }
 
         .back-button a:hover {
-            background-color: rgb(30, 136, 179);
+            background-color: #ea9438;;
         }
 
         @media (max-width: 768px) {
